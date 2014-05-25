@@ -30,3 +30,5 @@ Hawaii terminal.
 %makeinstall_std -C build
 
 %files
+%{_bindir}/hawaii-terminal
+%{_datadir}/applications/hawaii-terminal.desktop
