@@ -1,7 +1,7 @@
 Summary:	Hawaii terminal
 Name:		hawaii-terminal
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		http://www.maui-project.org
@@ -23,7 +23,7 @@ Hawaii terminal.
 %setup -q
 
 %build
-%cmake
+%cmake_qt5
 %make
 
 %install
