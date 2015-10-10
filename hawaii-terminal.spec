@@ -1,11 +1,11 @@
 Summary:	Hawaii terminal
 Name:		hawaii-terminal
-Version:	0.2.0
-Release:	3
+Version:	0.5.91
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		http://www.maui-project.org
-Source0:	http://downloads.sourceforge.net/project/mauios/hawaii/%{name}/%{name}-%{version}.tar.gz
+Source0:	https://github.com/hawaii-desktop/hawaii-terminal/releases/download/v%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	cmake
 BuildRequires:	qt5-devel
 
