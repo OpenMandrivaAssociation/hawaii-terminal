@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		http://www.maui-project.org
 Source0:	https://github.com/hawaii-desktop/hawaii-terminal/releases/download/v%{version}/%{name}-%{version}.tar.xz
-BuildRequires:	cmake
+BuildRequires:	cmake(ECM)
 BuildRequires:	qt5-devel
 
 %track
