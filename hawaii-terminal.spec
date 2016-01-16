@@ -36,5 +36,7 @@ Hawaii terminal.
 %makeinstall_std -C build
 
 %files
+%dir %{_libdir}/qml/Hawaii/Terminal
 %{_bindir}/hawaii-terminal
 %{_datadir}/applications/hawaii-terminal.desktop
+%{_libdir}/qml/Hawaii/Terminal/*
