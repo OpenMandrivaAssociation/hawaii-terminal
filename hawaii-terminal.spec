@@ -1,18 +1,24 @@
 Summary:	Hawaii terminal
 Name:		hawaii-terminal
 Version:	0.5.91
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		http://www.maui-project.org
+URL:		http://www.hawaiios.org
 Source0:	https://github.com/hawaii-desktop/hawaii-terminal/releases/download/v%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
-BuildRequires:	qt5-devel
+BuildRequires:	pkgconfig(Qt5Core)
+BuildRequires:	pkgconfig(Qt5DBus)
+BuildRequires:	pkgconfig(Qt5Gui)
+BuildRequires:	pkgconfig(Qt5Widgets)
+BuildRequires:	pkgconfig(Qt5Qml)
+BuildRequires:	pkgconfig(Qt5Quick)
+BuildRequires:	pam-devel
 
 %track
 prog %{name} = {
-    url = http://downloads.sourceforge.net/project/mauios/hawaii/
-    regex = "%{name}-(__VER__)\.tar\.gz"
+    url = https://github.com/hawaii-desktop/hawaii-terminal/releases/download/v%{version}/
+    regex = "%{name}-(__VER__)\.tar\.xz"
     version = %{version}
 }
 
