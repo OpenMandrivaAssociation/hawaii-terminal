@@ -1,7 +1,7 @@
 Summary:	Hawaii terminal
 Name:		hawaii-terminal
-Version:	0.5.91
-Release:	2
+Version:	0.6.0
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
 URL:		http://www.hawaiios.org
