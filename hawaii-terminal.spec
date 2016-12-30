@@ -38,5 +38,6 @@ Hawaii terminal.
 %files
 %dir %{_libdir}/qml/Hawaii/Terminal
 %{_bindir}/hawaii-terminal
-%{_datadir}/applications/hawaii-terminal.desktop
+%{_datadir}/applications/*.desktop
 %{_libdir}/qml/Hawaii/Terminal/*
+%{_datadir}/appdata/*.xml
