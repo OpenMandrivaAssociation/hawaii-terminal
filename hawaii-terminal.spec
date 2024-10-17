@@ -4,7 +4,7 @@ Version:	0.6.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Other
-URL:		http://www.hawaiios.org
+URL:		https://www.hawaiios.org
 Source0:	https://github.com/hawaii-desktop/hawaii-terminal/releases/download/v%{version}/%{name}-%{version}.tar.xz
 BuildRequires:	cmake(ECM)
 BuildRequires:	pkgconfig(Qt5Core)
